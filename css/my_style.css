@@ -1,0 +1,140 @@
+body{
+    background-image: url('../img/Capture d’écran de 2019-05-01 09-34-19.png');
+    background-size: 100% 100%;
+    background-attachment: fixed
+}
+.form_wizard{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+.form_wizard > div > header{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.form_wizard > div > header h2{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Lato,Arial,sans-serif;
+    color: white
+}
+.form_wizard > div > header strong{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Lato,Arial,sans-serif;
+    color: white
+}
+.form_wizard > div > section > section{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form_wizard > div > section > header{
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 15px;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    padding-left: 100px;
+    padding-right: 100px
+}
+.form_wizard > div > section > header .progress{
+    background-color: white;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 0px
+}
+.form_wizard > div > section >  section > div:nth-child(1) .label{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0072bc;
+}
+.form_wizard > div > section >  section > div:nth-child(1) .desc{
+    color: #555;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.form_wizard > div > section >  section > div:nth-child(1) img{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 35px
+}
+.form_wizard > div > section >  section .form_item .form-control{
+    color: #999;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    line-height: 1.428571429;
+    padding: 6px 12px;
+}
+.form_wizard > div > footer > div{
+    background-color: white;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.form_wizard > div > footer button{
+    margin-left: 10px;
+    width: 120px;
+    font-family: Lato,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px
+}
+.form_wizard > div > section > section form .form_item > header .label{
+    color: #333;
+    font-weight: 700;
+    line-height: 20px; 
+    padding-top: 15px;
+    padding-right: 15px
+}
+.form_wizard > div > section > section form .form_item > header .icon{
+    padding: 5px;
+    border: #e7e7e7 1px solid;
+    border-radius: 5px
+}
+.form_wizard > div > section > section form .form_item > header .icon img{
+    display: block;
+    width: 45px;
+    height: 35px
+}
+.form_wizard > div > section > section form .form_item > header > div{
+    padding-left: 15px;
+}
+.form_wizard > div > section > section form .form_item > header{
+    padding-bottom: 15px
+}
+.form_wizard > div > section > section form .form_item label{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Lato,Arial,sans-serif;
+    color: black;
+    padding-top: 8px;
+    font-weight: bold
+}
+.form_wizard > div > section > section form .form_item input[type=checkbox]{
+    width: 20px;
+    height: 20px
+}
+@media(max-width: 900px){
+    .form_wizard{
+        padding: 15px;
+    }
+    .form_wizard > div > section > header{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
